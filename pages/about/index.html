@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Online zoo</title>
+   <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <!--Normalize-->
+   <link rel="stylesheet" href="normalize.css">
+   <!--Project style-->
+   <link rel="stylesheet" href="style.css">
+   <!--Favicon-->
+   <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/fav/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/fav/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/fav/favicon-16x16.png">
+   <link rel="manifest" href="../../assets/icons/fav/site.webmanifest">
+</head>
+<body>
+<div class="wrapper">
+   <header class="header lock-padding">
+      <div class="container header__container">
+         <div class="header__body">
+            <div class="header__logo">
+               <a href="../about/index.html"><img src="../../assets/icons/logo.svg" alt="logo online-zoo"></a>
+            </div>
+            <div class="header__right">
+               <nav class="header__nav">
+                  <ul class="header__menu menu">
+                     <li class="menu__item current">
+                        <a href="#" class="menu__link">About</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="../map/map.html" class="menu__link">map</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="../zoos/panda/panda.html" class="menu__link">Zoos</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="../contact/contact.html" class="menu__link">Contact us</a>
+                     </li>
+                     <li class="menu__item">
+                        <a href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project?node-id=0%3A1" class="menu__link">design</a>
+                     </li>
+                  </ul>
+               </nav>
+               <ul class="header__socials socials">
+                  <li class="social__item youtube"><a href="https://www.youtube.com/"></a></li>
+                  <li class="social__item instagram"><a href="https://www.instagram.com/?hl=ru"></a></li>
+                  <li class="social__item facebook"><a href="https://www.facebook.com/"></a></li>
+               </ul>
+            </div>
+            <h1 class="visually-hidden">Online Zoo</h1>
+            <div class="burger">
+               <span class="line line1"></span>
+               <span class="line line2"></span>
+               <span class="line line3"></span>
+               <span class="line line4"></span>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="hero">
+      <div class="container">
+         <div class="hero_content">
+            <h2 class="hero_title">Watch your favorite animal online</h2>
+            <p class="hero_text text">Explore the exciting and mysterious world of wild animals in a natural setting without leaving your home.</p>
+            <a href="../zoos/panda/panda.html" class="hero_btn btn btn_orange">
+               <span>VIEW LIVE CAM</span>
+               <img src="../../assets/icons/arrow.svg" alt="arrow">
+            </a>
+         </div>
+      </div>
+   </section>
+   <section class="welcome">
+      <div class="container">
+         <div class="welcome_body">
+            <div class="welcome_desc welcom_item1">
+               <h2 class="welcome_title title title_accent">Welcome to the Online Zoo!</h2>
+               <p class="welcome_text text">On our website, using live webcams, fans of all ages can observe various animals. Among them, are Giant pandas, eagles, alligators, forest gorillas, African lions, and others. It is the whole natural world in real-time in front of our cameras.<span class="crop-text"> We hope you will enjoy watching closely and explore animals’ behavior and habitats! Note: animals are not always on view on cameras, so please check back if you don't see anything.</span></p>
+            </div>
+            <div class="welcome_pic">
+               <img src="../../assets/images/welcome.jpg" alt="entrance to the zoo">
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="welcome">
+      <div class="container container__how">
+         <div class="welcome_body welcome_body__how">
+            <div class="welcome_pic welcom_item1" id="welcome_pic__how">
+               <img src="../../assets/images/how.jpg" alt="couple of eagles">
+            </div>
+            <div class="welcome_desc welcome_desc__how">
+               <h2 class="welcome_title title title_accent">How we work</h2>
+               <p class="welcome_text text">Online Zoo is a nonprofit committed to inspiring awareness and preservation of nature and wild animals in our zoo and worldwide. <span class="crop-text">Every day, our experts work to safeguard the health and wellness of the animals.</span> To continue these efforts, we need your help. We're so grateful to our <span class="crop-text">numerous</span> supporters. All donations, large and small, go a long way to the conservation efforts of our pets.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="donate">
+      <div class="container">
+         <div class="donate_body">
+            <div class="donate_item donate_desc">
+               <h3 class="donate_title">Your donation makes a difference!</h3>
+               <p class="donate_text">The Online Zoo's animal webcams are some of the most famous on the internet. Tune in to watch your favourite animals — live,&nbsp;24/7!</p>
+            </div>
+            <div class="donate_item">
+               <p class="donate_name">Quick Donate</p>
+               <form action="#" class="donate__form donate-form">
+                  <div class="donate-form__body">
+                     <p class="donate-form__unit">$</p>
+                     <input type="number" id="donateIput"
+                        class="donate-form__input" 
+                        placeholder="Donation Amount"
+                        onkeypress="this.value=this.value.substring(0,3);">
+                  </div>
+                  <a href="#popup1" type="submit" class="donate-form__btn popup-link">
+                     <img src="../../assets/icons/arrow.svg" alt="">
+                  </a>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="pets">
+      <div class="container pets__container">
+         <h2 class="pets__title title title_accent">meet some our Pets</h2>
+         <p class="pets__text text_caption">Do you have a special place in your heart for animals? Who are your favorites? Perhaps you'd like to donate to special ones or all our pets? We think it's important for you to choose how your donation is used. </p>
+         <div class="pets__controls controls hidden">
+            <div class="controls__arrow pets-prev">
+               <svg class="controls__arrow-img" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9318 0.119971C12.1139 0.199174 12.2794 0.315255 12.4187 0.461565C12.5583 0.607505 12.6691 0.780876 12.7446 0.971748C12.8202 1.16262 12.8591 1.36724 12.8591 1.57389C12.8591 1.78055 12.8202 1.98517 12.7446 2.17604C12.6691 2.36691 12.5583 2.54028 12.4187 2.68622L6.39097 9H23.5416C23.9659 9 24.3729 9.21071 24.673 9.58579C24.973 9.96086 25.1416 10.4696 25.1416 11C25.1416 11.5304 24.973 12.0391 24.673 12.4142C24.3729 12.7893 23.9659 13 23.5416 13H6.39018L12.4187 19.3146C12.7002 19.6096 12.8584 20.0097 12.8584 20.4269C12.8584 20.8441 12.7002 21.2443 12.4187 21.5393C12.1371 21.8343 11.7553 22 11.3571 22C10.959 22 10.5771 21.8343 10.2956 21.5393L1.29962 12.1127C1.15999 11.9668 1.04921 11.7934 0.973627 11.6026C0.898043 11.4117 0.859135 11.2071 0.859135 11.0004C0.859135 10.7938 0.898043 10.5891 0.973627 10.3983C1.04921 10.2074 1.15999 10.034 1.29962 9.88808L10.2956 0.461565C10.4349 0.315255 10.6003 0.199174 10.7825 0.119971C10.9646 0.0407677 11.1599 0 11.3571 0C11.5543 0 11.7496 0.0407677 11.9318 0.119971Z"/>
+               </svg>
+            </div>
+            <div class="controls__arrow pets-next">
+               <svg class="controls__arrow-img" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+               </svg>
+            </div>
+         </div>
+      </div>
+      <div class="pets__carousel-box">
+         <div class="pets__cards-wrapper">
+            <div class="pets-carousel">               
+               <div class="pets-carousel__gallery">
+                  <div class="pets-card__gradient"></div>
+                  <div class="pets-carousel__cards">
+                     <div class="pets__card pets-card" data-url="../zoos/panda/panda.html">   
+                        <p class="pets-card__name">Lucas0</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/panda.jpg" alt="Giant Panda">
+                        </div>
+                        <h4 class="pets-card__title card__title">Giant Panda</h4>
+                        <p class="pets-card__text card__text">Native to central China, giant pandas have come to symbolize vulnerable species.</p>
+                        <div  class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </div>
+                     <a href="../zoos/eagle/eagle.html" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Sam & Lora1</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/eagles.jpg" alt="West End Bald Eagles">
+                        </div>
+                        <h4 class="pets-card__title card__title">West End Bald Eagles</h4>
+                        <p class="pets-card__text card__text">Pair of eagle parents lay and protect eggs, feed their chicks and teach them to hunt and fly.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="../zoos/lemur/lemur.html" class="pets__card pets-card">   
+                        <p class="pets-card__name">Andy2</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/lemur.jpg" alt="Madagascarian Lemur">
+                        </div>
+                        <h4 class="pets-card__title card__title">Madagascarian Lemur</h4>
+                        <p class="pets-card__text card__text">Lemurs are considered the world’s most endangered group of mammals.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Liz3</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/koala.jpg" alt="Australian Koala">
+                        </div>
+                        <h4 class="pets-card__title card__title">Australian Koala</h4>
+                        <p class="pets-card__text card__text">The elevated walkways bring you to eye level with the koalas as they perch in their forest.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="../zoos/gorilla/gorilla.html" class="pets__card pets-card">   
+                        <p class="pets-card__name">Glen4</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/gorilla.jpg" alt="Gorilla in Congo">
+                        </div>
+                        <h4 class="pets-card__title card__title">Gorilla in Congo</h4>
+                        <p class="pets-card__text card__text">Variety of snacks very important for the healthy life of gorillas and his plenty of babies.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Shake5</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/lion.jpg" alt="African Lion">
+                        </div>
+                        <h4 class="pets-card__title card__title">African Lion</h4>
+                        <p class="pets-card__text card__text">Lions roam the savannas and grasslands of Africa, hunting and raising cubs in the pride.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name">Mike6</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/alligator.jpg" alt="Chinese Alligator">
+                        </div>
+                        <h4 class="pets-card__title card__title">Chinese Alligator</h4>
+                        <p class="pets-card__text card__text">From nose to tail, belly to back, hard scales protect this petite alligator.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Senja7</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/tiger.jpg" alt="Sumatran Tiger">
+                        </div>
+                        <h4 class="pets-card__title card__title">Sumatran Tiger</h4>
+                        <p class="pets-card__text card__text">Sumatran Tigers are the smallest of the five sub-species, and are found in Indonesia.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+
+                     <a href="../zoos/panda/panda.html" class="pets__card pets-card">   
+                        <p class="pets-card__name">Lucas8</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/panda.jpg" alt="Giant Panda">
+                        </div>
+                        <h4 class="pets-card__title card__title">Giant Panda</h4>
+                        <p class="pets-card__text card__text">Native to central China, giant pandas have come to symbolize vulnerable species.</p>
+                        <div  class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="../zoos/eagle/eagle.html" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Sam & Lora9</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/eagles.jpg" alt="West End Bald Eagles">
+                        </div>
+                        <h4 class="pets-card__title card__title">West End Bald Eagles</h4>
+                        <p class="pets-card__text card__text">Pair of eagle parents lay and protect eggs, feed their chicks and teach them to hunt and fly.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="../zoos/lemur/lemur.html" class="pets__card pets-card">   
+                        <p class="pets-card__name">Andy10</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/lemur.jpg" alt="Madagascarian Lemur">
+                        </div>
+                        <h4 class="pets-card__title card__title">Madagascarian Lemur</h4>
+                        <p class="pets-card__text card__text">Lemurs are considered the world’s most endangered group of mammals.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Liz11</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/koala.jpg" alt="Australian Koala">
+                        </div>
+                        <h4 class="pets-card__title card__title">Australian Koala</h4>
+                        <p class="pets-card__text card__text">The elevated walkways bring you to eye level with the koalas as they perch in their forest.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="../zoos/gorilla/gorilla.html" class="pets__card pets-card">   
+                        <p class="pets-card__name">Glen12</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/gorilla.jpg" alt="Gorilla in Congo">
+                        </div>
+                        <h4 class="pets-card__title card__title">Gorilla in Congo</h4>
+                        <p class="pets-card__text card__text">Variety of snacks very important for the healthy life of gorillas and his plenty of babies.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Shake13</p>
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/lion.jpg" alt="African Lion">
+                        </div>
+                        <h4 class="pets-card__title card__title">African Lion</h4>
+                        <p class="pets-card__text card__text">Lions roam the savannas and grasslands of Africa, hunting and raising cubs in the pride.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name">Mike14</p>
+                        
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/alligator.jpg" alt="Chinese Alligator">
+                        </div>
+                        <h4 class="pets-card__title card__title">Chinese Alligator</h4>
+                        <p class="pets-card__text card__text">From nose to tail, belly to back, hard scales protect this petite alligator.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                     <a href="#" class="pets__card pets-card">   
+                        <p class="pets-card__name row2">Senja15</p>
+                        
+                        <div class="pets-card__pic">
+                           <img src="../../assets/images/tiger.jpg" alt="Sumatran Tiger">
+                        </div>
+                        <h4 class="pets-card__title card__title">Sumatran Tiger</h4>
+                        <p class="pets-card__text card__text">Sumatran Tigers are the smallest of the five sub-species, and are found in Indonesia.</p>
+                        <div class="pets-card__link card__link">
+                           <span>VIEW LIVE CAM</span>
+                           <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                           </svg>
+                        </div>
+                     </a>
+                  </div> 
+               </div>
+            </div>
+         </div>   
+      </div>
+      <div class="container hidden320">
+         <a href="../map/map.html" class="pets__btn slider-btn">
+            <span>choose your favourite</span>
+            <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+            </svg>
+         </a>
+      </div>
+   </section> 
+   <section class="feed">
+      <div class="container container_feed">
+         <h2 class="feed__title title">PAY AND FEED</h2>
+         <div class="feed__step step">
+            <div class="step__decor">
+               <p class="step__number card__title">01</p>
+               <div class="step__line"></div>
+            </div>
+            <div class="step__body">
+               <div class="step__left">
+                  <div class="step__pic">
+                     <img src="../../assets/images/step1.jpg" alt="monkey without food">
+                  </div>
+               </div>
+               <div class="step__desc">
+                  <img src="../../assets/icons/step1.svg" alt="heart" class="step__icon">
+                  <h4 class="step__title card__title">Your donation has an impact</h4>
+                  <p class="step__text text">Providing our animals with high-quality nutritious diets is just one element of animal care at our Zoo. We do all the best so that our animals can eat food similar to what they might find in their natural habitats while making sure they get the right mix of nutrients, proteins, and vitamins to be happy and healthy. Please help us provide nutritious food for our animals by donating.<span class="hidden320"> The generosity of people like you can help us make sure that our animals enjoy good food that keeps them in great condition.</span></p>
+               </div>
+            </div>
+         </div>
+         <div class="feed__step step feed__step_2">
+            <div class="step__decor">
+               <p class="step__number card__title">02</p>
+               <div class="step__line"></div>
+            </div>
+            <div class="step__body">
+               <div class="step__left">
+                  <div class="step__pic">
+                     <img src="../../assets/images/step2.jpg" alt="monkey without food">
+                  </div>
+               </div>
+               <div class="step__desc">
+                  <img src="../../assets/icons/step2.svg" alt="heart" class="step__icon">
+                  <h4 class="step__title card__title">Make a donation</h4>
+                  <p class="step__text step__text_sm text">You can donate through your credit card without any fees. It is easy and safe. We do not keep donors' personal information on an online network. Choose an amount to give and the pet's name if needed.<span class="hidden320"> One of the most effective ways you can give is by making regular donations.</span></p>
+               </div>
+            </div>
+         </div>
+         <div class="feed__step step">
+            <div class="step__decor">
+               <p class="step__number card__title">03</p>
+               <div class="step__line"></div>
+            </div>
+            <div class="step__body">
+               <div class="step__left">
+                  <div class="step__pic">
+                     <img src="../../assets/images/step3.jpg" alt="monkey without food">
+                  </div>
+               </div>
+               <div class="step__desc">
+                  <img src="../../assets/icons/step3.svg" alt="heart" class="step__icon">
+                  <h4 class="step__title card__title">Bring your food charity — straight to your favorites pets.</h4>
+                  <p class="step__text step__text_btn step__text_sm text">After your donation, the animal receives its favorite foods. You can support your favorite animals or any animal you care about and make a real personal impact. Never doubt that your donation can make a difference even if it is small.</p>
+                  <a href="#popup0" class="step__btn btn btn_orange popup-link">
+                     <span>donate now</span>
+                     <img src="../../assets/icons/arrow.svg" alt="arrow">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="comments">
+      <div class="comments__grid-big">
+         <div class="comments__what">
+            <div class="comments__what-content">
+               <h2 class="comments__title title">what our users think</h2>
+               <p class="comments__text text">We are continuously striving to improve the experiences of our future guests. Below you can leave your own feedback, or simply view feedback from past clients.</p>
+            </div>
+         </div>
+         <div class="comments__grid-sm">
+            <div class="comments-carousel">
+               <div class="comments-carousel__gallery">
+                  <div class="comments-carousel__items">
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>New Jersey,</span> June 2020</h4>
+                           <p class="comment__text text">I am writing to thank you for your mission is to bring people closer to nature! Like myself, children were very impressed by the opportunity to explore the life of incredible animals in real-time.</p>
+                           <p class="comment__name">Karen Maithlan 1</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>Toronto,</span> November 2020</h4>
+                           <p class="comment__text text">We so enjoy the ever-evolving selection of animals from around the globe. THANK YOU for sharing these fascinating animal friends with us so that we may learn and increase our understanding of the animal kingdom.</p>
+                           <p class="comment__name">Carol Larsen2</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>London,</span> February 2020</h4>
+                           <p class="comment__text text">A fantastic experience for kids and adults alike! If anyone is looking for an attraction that educates people on wild animals – it's for you! I highly recommend seeing for yourself the variety of animals on your screen.</p>
+                           <p class="comment__name">C. Stockman3</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>Amsterdam,</span> June 2020</h4>
+                           <p class="comment__text text">I want to thank you for the amazing sites you find to put your cameras to let each of us see things that we would probably never see on our own. There are so many positives on Zoo Online and I'm grateful for it. Thank you so much!</p>
+                           <p class="comment__name">Tomas Ray4</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>New Jersey,</span> June 2020</h4>
+                           <p class="comment__text text">I am writing to thank you for your mission is to bring people closer to nature! Like myself, children were very impressed by the opportunity to explore the life of incredible animals in real-time.</p>
+                           <p class="comment__name">Karen Maithlan5</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>Toronto,</span> November 2020</h4>
+                           <p class="comment__text text">We so enjoy the ever-evolving selection of animals from around the globe. THANK YOU for sharing these fascinating animal friends with us so that we may learn and increase our understanding of the animal kingdom.</p>
+                           <p class="comment__name">Carol Larsen6</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>London,</span> February 2020</h4>
+                           <p class="comment__text text">A fantastic experience for kids and adults alike! If anyone is looking for an attraction that educates people on wild animals – it's for you! I highly recommend seeing for yourself the variety of animals on your screen.</p>
+                           <p class="comment__name">C. Stockman7</p>
+                        </div>
+                     </article>
+                     <article class="comments__card comment">
+                        <div class="comment__body">
+                           <div class="comment__icon">
+                              <img src="../../assets/icons/comments.svg" alt="">
+                           </div>
+                           <h4 class="comment__title"><span>Amsterdam,</span> June 2020</h4>
+                           <p class="comment__text text">I want to thank you for the amazing sites you find to put your cameras to let each of us see things that we would probably never see on our own. There are so many positives on Zoo Online and I'm grateful for it. Thank you so much!</p>
+                           <p class="comment__name">YYY8</p>
+                        </div>
+                     </article>   
+                  </div>
+               </div>
+            </div>
+            <div class="comments__controls-container">
+               <div class="controls comments__controls">
+                  <div class="controls__arrow controls__arrow_comments comments-prev">
+                     <svg class="controls__arrow-img controls__arrow-img_comments" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9318 0.119971C12.1139 0.199174 12.2794 0.315255 12.4187 0.461565C12.5583 0.607505 12.6691 0.780876 12.7446 0.971748C12.8202 1.16262 12.8591 1.36724 12.8591 1.57389C12.8591 1.78055 12.8202 1.98517 12.7446 2.17604C12.6691 2.36691 12.5583 2.54028 12.4187 2.68622L6.39097 9H23.5416C23.9659 9 24.3729 9.21071 24.673 9.58579C24.973 9.96086 25.1416 10.4696 25.1416 11C25.1416 11.5304 24.973 12.0391 24.673 12.4142C24.3729 12.7893 23.9659 13 23.5416 13H6.39018L12.4187 19.3146C12.7002 19.6096 12.8584 20.0097 12.8584 20.4269C12.8584 20.8441 12.7002 21.2443 12.4187 21.5393C12.1371 21.8343 11.7553 22 11.3571 22C10.959 22 10.5771 21.8343 10.2956 21.5393L1.29962 12.1127C1.15999 11.9668 1.04921 11.7934 0.973627 11.6026C0.898043 11.4117 0.859135 11.2071 0.859135 11.0004C0.859135 10.7938 0.898043 10.5891 0.973627 10.3983C1.04921 10.2074 1.15999 10.034 1.29962 9.88808L10.2956 0.461565C10.4349 0.315255 10.6003 0.199174 10.7825 0.119971C10.9646 0.0407677 11.1599 0 11.3571 0C11.5543 0 11.7496 0.0407677 11.9318 0.119971Z"/>
+                     </svg>
+                  </div>
+                  <div class="controls__arrow controls__arrow_comments comments-next">
+                     <svg class="controls__arrow-img controls__arrow-img_comments" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </div>
+                  <div class="bullets">
+                     <div class="bullets__body">
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                        <div class="bullet"><span></span></div>
+                     </div>
+                  </div>
+               </div>  
+               
+            </div>
+         </div>
+         <div class="comments__btn-row">
+            <a href="" class="comments__btn slider-btn">
+               <span>leave feedback</span>
+               <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+               </svg>
+            </a>
+         </div>
+      </div>
+      <div class="comments__bg640"></div>
+   </section>
+   <section class="animals">
+      <div class="container">
+         <div class="animals__caption">
+            <h2 class="animals__title title title_accent">care for the animals you love</h2>
+            <p class="animals__text text_caption">You can help to look after the animals you love with your gift today</p>
+         </div>
+         <div class="animals__grid">
+            <div class="animals__item animals__item_lg">
+               <img src="../../assets/images/koala_lg.jpg" alt="">
+            </div>
+            <a href="../zoos/panda/panda.html" class="animals__item animals__item_sm animal-card">
+               <div class="animal-card__pic">
+                  <img src="../../assets/images/animal_panda.jpg" alt="Giant Panda">
+               </div>
+               <p class="animal-card__text card__text">Your $30 could give Lucas a slice of panda cake, made with our secret recipe.</p>
+               <object>
+                  <a href="#popup1" class="animal-card__link card__link popup-link">
+                     <span>feed</span>
+                     <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </a>
+               </object>
+            </a>
+            <a href="#" class="animals__item animals__item_sm animal-card">  
+               <div class="animal-card__pic">
+                  <img src="../../assets/images/animal_tiger.jpg" alt="Sumatran tiger">
+               </div>
+               <p class="animal-card__text card__text">Your $150 will help to care for Senja, a Sumatran tiger, for three weeks. Lorem ipsum</p>
+               <object>
+                  <a href="#popup1" class="animal-card__link card__link popup-link">
+                     <span>feed</span>
+                     <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </a>
+               </object>
+            </a>
+            <a href="../zoos/lemur/lemur.html" class="animals__item animals__item_sm animal-card">
+               <div class="animal-card__pic">
+                  <img src="../../assets/images/animal_lemur.jpg" alt="Madagascarian Lemur">
+               </div>
+               <p class="animal-card__text card__text">With your support, we can give Andy his favorite fruits. Especially when it's not fruit season in its natural habitat.</p>
+               <object>
+                  <a href="#popup1" class="animal-card__link card__link popup-link">
+                     <span>feed</span>
+                     <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </a>
+               </object>
+            </a>
+            <a href="../zoos/eagle/eagle.html" class="animals__item animals__item_sm animal-card">
+               <div class="animal-card__pic">
+                  <img src="../../assets/images/animals_eagles.jpg" alt="West End Bald Eagles">
+               </div>
+               <p class="animal-card__text card__text">Sam & Lora have hatched and raised numerous young and will be happy with your help.</p>
+               <object>  
+                  <a href="#popup1" class="animal-card__link card__link popup-link">
+                     <span>feed</span>
+                     <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </a>
+               </object> 
+            </a>
+         </div>
+
+         <div class="card-mobile">
+            <div class="card-mobile__pic card-mobile__item">
+               <img src="../../assets/images/animal_lemur.jpg" alt="Giant Panda">
+            </div>
+            <diV class="card-mobile__item">
+               <div class="card-mobile__desc">
+                  <p class="card-mobile__text card__text">Your $30 could give Lucas a slice of panda cake, made with our secret recipe.</p>
+                  <a href="#popup1" class="card-mobile__link card__link popup-link">
+                     <span>feed</span>
+                     <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </a>
+               </div>
+            </diV>
+         </div>
+         <div class="bullets" id="bullets_animal">
+            <div class="bullets__body">
+               <div class="bullet current-bullet"></div>
+               <div class="bullet"></div>
+               <div class="bullet"></div>
+               <div class="bullet"></div>
+            </div>
+         </div>
+         <div class="container">
+            <a href="../map/map.html" class="pets__btn slider-btn animal__btn">
+               <span>choose your favourite</span>
+               <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+               </svg>
+            </a>
+         </div>
+      </div>
+   </section>
+   <div class="picture">
+      <div class="container">
+         <div class="picture__pic">
+            <img src="../../assets/images/picture.jpg" alt="Touch the animal">
+         </div>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="container footer__container">
+         <div class="footer__top">
+            <div class="footer__body-top">
+               <ul class="footer__logos footer__top-item">
+                  <li><a href="#"><img src="../../assets/icons/logo_zoo.svg" alt=""></a></li>
+                  <li><p title="Yem Digital"><img src="../../assets/icons/logo_digital.svg" alt=""></p></li>
+                  <li><p title="Rolling Scopes School"><img src="../../assets/icons/logo_RSS.svg" alt=""></p></li>
+               </ul>
+               <div class="footer__top-item footer__top-item_menu">
+                  <ul class="footer__menu menu">
+                     <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                     <li class="menu__item"><a href="../map/map.html" class="menu__link">map</a></li>
+                     <li class="menu__item"><a href="../zoos/panda/panda.html" class="menu__link">Zoos</a></li>
+                     <li class="menu__item"><a href="../contact/contact.html" class="menu__link">Contact&nbsp;us</a></li>
+                  </ul>
+               </div>
+               <div class="footer__top-item">
+                  <a href="#popup0" class="footer__btn slider-btn popup-link">
+                     <span>Donate for volunteers</span>
+                     <svg class="btn-arrow" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0682 0.119971C13.8861 0.199174 13.7206 0.315255 13.5813 0.461565C13.4417 0.607505 13.3309 0.780876 13.2554 0.971748C13.1798 1.16262 13.1409 1.36724 13.1409 1.57389C13.1409 1.78055 13.1798 1.98517 13.2554 2.17604C13.3309 2.36691 13.4417 2.54028 13.5813 2.68622L19.609 9H2.4584C2.03405 9 1.62709 9.21071 1.32703 9.58579C1.02697 9.96086 0.858398 10.4696 0.858398 11C0.858398 11.5304 1.02697 12.0391 1.32703 12.4142C1.62709 12.7893 2.03405 13 2.4584 13H19.6098L13.5813 19.3146C13.2998 19.6096 13.1416 20.0097 13.1416 20.4269C13.1416 20.8441 13.2998 21.2443 13.5813 21.5393C13.8629 21.8343 14.2447 22 14.6429 22C15.041 22 15.4229 21.8343 15.7044 21.5393L24.7004 12.1127C24.84 11.9668 24.9508 11.7934 25.0264 11.6026C25.102 11.4117 25.1409 11.2071 25.1409 11.0004C25.1409 10.7938 25.102 10.5891 25.0264 10.3983C24.9508 10.2074 24.84 10.034 24.7004 9.88808L15.7044 0.461565C15.5651 0.315255 15.3997 0.199174 15.2175 0.119971C15.0354 0.0407677 14.8401 0 14.6429 0C14.4457 0 14.2504 0.0407677 14.0682 0.119971Z"/>
+                     </svg>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="footer__bottom">
+            <div class="footer__body-bottom">
+               <div class="footer__bottom-item footer__bottom-item_copyrights">
+                  <ul class="footer__copyrights text">
+                     <li>© 2021 DinaK</li>
+                     <li>© Yem Digital</li>
+                     <li>© RSSchool</li>
+                  </ul>
+               </div>
+               <div class="footer__bottom-item footer__bottom-item_socials">
+                  <ul class="footer__socials socials">
+                     <li class="social__item youtube"><a href="https://www.youtube.com/"></a></li>
+                     <li class="social__item instagram"><a href="https://www.instagram.com/?hl=ru"></a></li>
+                     <li class="social__item facebook"><a href="https://www.facebook.com/"></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   
+   <!--POP-UP-->
+   <form onsubmit="alert('Thank you for your donation!')">
+      <div id="popup1" class="popup-step popup">
+         <div class="popup-step__body popup__body">
+            <div class="popup-step__content popup__content">
+               <div class="popup-step__caption">
+                  <h2 class="popup-step__title close-popup">make your donation</h2>
+               </div>
+               <div class="popup-step__line">
+                  <h3 class="popup-step__subtitle">Donation Information:</h3>
+               </div>
+               <fieldset action="#" class="popup-step__form" id='popup-form1'>
+                  <div class="popup-step__form-wrapper">
+                     <div class="popup-step__main">
+                        <p class="popup-step1__label label-text"><span class="form-star">*</span>Choose your donation amount:</p>
+                        <div class="popup-step1__row1 row">
+                           <div class="popup-step1__btn popup__btn">
+                              <input type="radio" class="radio num-btn1" id="usd10" name="amount">
+                              <label for="usd10" class="btn-text sum-btn1">$10</label>
+                           </div>
+                           <div class="popup-step1__btn popup__btn">
+                              <input type="radio" class="radio num-btn1" id="usd20" name="amount">
+                              <label for="usd20" class="btn-text sum-btn1">$20</label>
+                           </div>
+                           <div class="popup-step1__btn popup__btn">
+                              <input type="radio" class="radio num-btn1" id="30" name="amount">
+                              <label for="30" class="btn-text sum-btn1">$30</label>
+                           </div>
+                           <div class="popup-step1__btn popup__btn">
+                              <input type="radio" class="radio num-btn1" id="50" name="amount">
+                              <label for="50" class="btn-text sum-btn1">$50</label>
+                           </div>
+                           <div class="popup-step1__btn popup__btn">
+                              <input type="radio" class="radio num-btn1" id="80" name="amount">
+                              <label for="80" class="btn-text sum-btn1">$80</label>
+                           </div>
+                           <div class="popup-step1__btn popup__btn">
+                              <input type="radio" class="radio num-btn1" id="100" name="amount">
+                              <label for="100" class="btn-text sum-btn1">$100</label>
+                           </div>
+                        </div>
+                        <div class="popup-step1__row2 row">
+                           <div class="popup-step1__btn popup__btn popup-step1__btn_other">
+                              <input type="radio" class="radio" id="other" name="amount">
+                              <label for="other" class="btn-text sum-btn1">Other&nbsp;<span class="popup-hidden320">amount</span></label>
+                           </div>
+                           <div class="popup-step1__value">
+                              <input type="number" onkeypress="this.value=this.value.substring(0,3)" id="donateVal" class="input-text popup-input">
+                           </div>
+                        </div>
+                        <div class="popup-step1__row3 row">
+                           <div class="popup-step1__row3-item">
+                              <input type="checkbox" id="pet">
+                              <label for="pet" class="for-special-pet btn-text" id="petsLabel">for special pet</label>
+                           </div>
+                           <div class="select-box__wrapper">
+                              <div class="select-box select-box_pets">   
+                                 <div class="options-container">
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="panda" name="category">
+                                       <label for="panda">Lukas the Panda</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="lemur" name="category">
+                                       <label for="lemur">Andy the Lemur</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="gorilla" name="category">
+                                       <label for="gorilla">Glen the Gorilla</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="alligator" name="category">
+                                       <label for="alligator">Mike the Alligator</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="eagle" name="category">
+                                       <label for="eagle">Sam & Lora the eagles family</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="koala" name="category">
+                                       <label for="koala">Liz the Koala</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="lion" name="category">
+                                       <label for="lion">Shake the Lion</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="tiger" name="category">
+                                       <label for="tiger">Senja the Tiger</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="ipsum1" name="category">
+                                       <label for="ipsum1">Lorem ipsum1</label>
+                                    </div>
+                                    <div class="option">
+                                       <input type="radio" class="radio" id="ipsum2" name="category">
+                                       <label for="ipsum2">Lorem ipsum2</label>
+                                    </div>
+                                 </div>
+                                 <div class="selected input-text">
+                                    <span>Choose your favourite</span>
+                                 </div>
+                                 <div class="select-margin_top">
+                                    
+                                 </div>
+                                 <div class="select-margin_bottom">
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="popup-step1__row4 row">
+                           <input type="checkbox" id="monthly" name="period">
+                           <label for="monthly" class="monthly__text label-text">Make this a monthly recurring gift</label>
+                        </div>
+                     </div>
+                     <div class="popup-step1__row5 row">
+                        <div class="popup-step1__bullets popup-bullets">
+                           <span class="current-popup-bullet"></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                        <a href="#popup2" id="btn-next1" class="btn-next popup-link inactive">
+                           <span class="btn-text next">next</span>
+                           <img src="../../assets/icons/arrow.svg" alt="arrow">
+                        </a>
+                     </div>
+                  </div>
+               </fieldset>
+            </div>
+         </div>
+      </div>
+
+      <div id="popup2" class="popup-step popup">
+         <div class="popup-step__body popup__body">
+            <div class="popup-step__content popup__content">
+               <div class="popup-step__caption">
+                  <h2 class="popup-step__title">make your donation</h2>
+               </div>
+               <div class="popup-step__line">
+                  <h3 class="popup-step__subtitle">Billing Information:</h3>
+               </div>
+               <fieldset class="popup-step__form">
+                  <div class="popup-step__form-wrapper">
+                     <div class="popup-step__main">
+                        <div class="popup-step2__row">
+                           <label for="popup-name" class="label-text"><span class="form-star">*</span>Your Name </label>
+                           <input id="popup-name" type="text" placeholder="First and last name" required class="popup-step__inp input-text popup-input">
+                           <p class="popup-input__msg">Error mesage</p>
+                        </div>
+                        <div class="popup-step2__row">
+                           <label for="popup-email" class="label-text"><span class="form-star">*</span>Your Email Address </label>
+                           <input id="popup-email" type="email" placeholder="Enter your email" required class="popup-step__inp input-text popup-input">
+                           <p class="popup-input__msg">Error mesage</p>
+                           <p class="popup-text">You will receive emails from the Online Zoo, including updates and news on the latest discoveries and translations. You can unsubscribe at any time.</p>
+                        </div>
+                     </div>
+                     <div class="popup-step1__row5 row">
+                        <div class="popup-step1__bullets popup-bullets">
+                           <span class="current-popup-bullet"></span>
+                           <span class="current-popup-bullet"></span>
+                           <span></span>
+                        </div>
+                        <a href="#popup1" class="popup-back popup-link">Back</a>
+                        <a href="#popup3" class="btn-next popup-link inactive" id="popup2-next">
+                           <span class="btn-text next">next</span>
+                           <img src="../../assets/icons/arrow.svg" alt="arrow">
+                        </a>
+                     </div>
+                  </div>
+               </fieldset>
+            </div>
+         </div>  
+      </div>
+
+      <div id="popup3" class="popup-step popup">
+         <div class="popup-step__body popup__body">
+            <div class="popup-step__content popup__content">
+               <div class="popup-step__caption">
+                  <h2 class="popup-step__title">make your donation</h2>
+               </div>
+               <div class="popup-step__line">
+                  <h3 class="popup-step__subtitle">Payment Information:</h3>
+               </div>
+               <fieldset action="#" class="popup-step__form">
+                  <div class="popup-step__form-wrapper">
+                     <div class="popup-step__main">
+                        <div class="popup-step3__row popup-step3__row1">
+                           <div class="popup-step3__item-credit">
+                              <label for="popup-credit" class="label-text"><span class="form-star">*</span>Credit Card Number</label>
+                              <input id="popup-credit" type="text" pattern="[0-9]{16}" class="popup-step__inp input-text popup-input placeholder-none" placeholder="card" required onkeypress="this.value=this.value.substring(0,15)">
+                              <p class="popup-input__msg">Error mesage</p>
+                           </div>
+                           <div class="popup-step3__item-cvv">
+                              <label for="popup-cvv" class="label-text"><span class="form-star">*</span>CVV Number</label>
+                              <input id="popup-cvv" type="text" pattern="[0-9]{3}" class="popup-step__inp input-text popup-input placeholder-none" placeholder="cvv" required onkeypress="this.value=this.value.substring(0,2)">
+                              <p class="popup-input__msg">Error mesage</p>
+                           </div>   
+                        </div>
+                        <div class="popup-step3__row popup-step3__row2">
+                           <p class="label-text"><span class="form-star">*</span>Expiration Date</p>
+                           <div class="popup-step3__selects-box">
+                              <div class="popup-step3__date-wrapper">
+
+                                 <div class="select-box select-box__date">   
+                                    <div class="options-container">
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="january" name="month">
+                                          <label for="january">01</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio select-month" id="february" name="month">
+                                          <label for="february">02</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="March" name="month">
+                                          <label for="March">03</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="April" name="month">
+                                          <label for="April">04</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="May" name="month">
+                                          <label for="May">05</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="June" name="month">
+                                          <label for="June">06</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="July" name="month">
+                                          <label for="July">07</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="August" name="month">
+                                          <label for="August">08</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="September" name="month">
+                                          <label for="September">09</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="October" name="month">
+                                          <label for="October">10</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="November" name="month">
+                                          <label for="November">11</label>
+                                       </div>
+                                       <div class="option option-month">
+                                          <input type="radio" class="radio" id="December" name="month">
+                                          <label for="December">12</label>
+                                       </div>
+                                    </div>
+                                    <div class="selected input-text" id="selected-month">
+                                       <span>Month</span>
+                                    </div>
+                                    <div class="select-margin_top">
+                                       
+                                    </div>
+                                    <div class="select-margin_bottom">
+                                       
+                                    </div>
+                                 </div>
+
+                                 <div class="select-box select-box__date">   
+                                    <div class="options-container">
+                                       <div class="option option-year">
+                                          <input type="radio" class="radio select-year" id="2021" name="year">
+                                          <label for="2021">21</label>
+                                       </div>
+                                       <div class="option option-year">
+                                          <input type="radio" class="radio select-year" id="2022" name="year">
+                                          <label for="2022">22</label>
+                                       </div>
+                                       <div class="option option-year">
+                                          <input type="radio" class="radio select-year" id="2023" name="year">
+                                          <label for="2023">23</label>
+                                       </div>
+                                       <div class="option option-year">
+                                          <input type="radio" class="radio select-year" id="2024" name="year">
+                                          <label for="2024">24</label>
+                                       </div>
+                                       <div class="option option-year">
+                                          <input type="radio" class="radio select-year" id="2025" name="year">
+                                          <label for="2025">25</label>
+                                       </div>
+                                       <div class="option option-year">
+                                          <input type="radio" class="radio select-year" id="2026" name="year">
+                                          <label for="2026">26</label>
+                                       </div>
+                                    </div>
+                                    <div class="selected input-text" id="selected-year">
+                                       <span>Year</span>
+                                    </div>
+                                    <div class="select-margin_top">
+                                       
+                                    </div>
+                                    <div class="select-margin_bottom">
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="row row-complete">
+                        <div class="row-complete__item">
+                           <div class="popup-step1__bullets popup-bullets popup-bullets_3">
+                              <span class="current-popup-bullet"></span>
+                              <span class="current-popup-bullet"></span>
+                              <span class="current-popup-bullet"></span>
+                           </div>
+                           <a href="#popup2" class="popup-back popup-link">Back</a>
+                        </div>
+                        <button onclick="alert('Thank you for your donation!')" type="submit" id="complete-btn" class="btn-next btn-next__complete inactive close-popup">
+                           <span class="btn-text next inactive">complete donation</span>
+                           <img src="../../assets/icons/arrow.svg" alt="arrow">
+                        </button>
+                     </div>
+                  </div>
+               </fieldset>
+            </div>
+         </div>     
+      </div>
+   </form>
+
+   <div id="popup0" class="popup">
+      <div class="popup__body">
+         <div class="popup0__content popup__content">
+            <a href="#header" class="popup__close close close-popup"><img src="../../assets/icons/close.svg" alt="close button"></a>
+            <div class="popup__pic">
+               <img src="../../assets/images/popup_pic.jpg" alt="">
+            </div>
+            <h2 class="popup__title title">together we care, save and protect!</h2>
+            <p class="popup__text text">Your most generous gift not only cares for countless animals, but it also offers hope and a vital lifeline to the world’s most endangered wildlife relying on us to survive.</p>
+            <form class="popup-0__btn-box">
+               <a href="#popup1" class="popup-0__btn popup__btn popup-link">
+                  <input type="radio" class="radio sum-btn0" id="20-0" name="amount-0">
+                  <label for="20-0" class="btn-text">$20</label>
+               </a>
+               <a href="#popup1" class="popup-0__btn popup__btn popup-link">
+                  <input type="radio" class="radio" id="30-0" name="amount-0">
+                  <label for="30-0" class="btn-text">$30</label>
+               </a>
+               <a href="#popup1" class="popup-0__btn popup__btn popup-link">
+                  <input type="radio" class="radio" id="50-0" name="amount-0">
+                  <label for="50-0" class="btn-text">$50</label>
+               </a>
+               <a href="#popup1" class="popup-0__btn popup__btn popup-link">
+                  <input type="radio" class="radio" id="80-0" name="amount-0">
+                  <label for="80-0" class="btn-text">$80</label>
+               </a>
+               <a href="#popup1" class="popup-0__btn popup__btn popup-link">
+                  <input type="radio" class="radio" id="100-0" name="amount-0">
+                  <label for="100-0" class="btn-text">$100</label>
+               </a>
+               <a href="#popup1" class="popup-0__btn popup__btn popup-link">
+                  <input type="radio" class="radio" id="other-0" name="amount-0">
+                  <label for="other-0" class="btn-text">other</label>
+               </a>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+<script src="script.js" ></script>  
+
+</body>
+</html>

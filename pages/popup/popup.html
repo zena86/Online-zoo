@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>POP UP</title>
+      <!--Google Fonts-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!--Normalize-->
+      <link rel="stylesheet" href="normalize.css">
+      <!--Project style-->
+      <link rel="stylesheet" href="style.css">
+      <!--Favicon-->
+      <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/fav/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/fav/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/fav/favicon-16x16.png">
+      <link rel="manifest" href="../../assets/icons/fav/site.webmanifest">
+   </head>
+<body>
+   <!--Должен быть .wrapper; одинаковые id на ссылке и попапе; не забыть popup-link и lock-padding-->
+   <div id="popup0" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close"><img src="../../assets/icons/close.svg" alt="close button"></a>
+            <div class="popup__pic">
+               <img src="../../assets/images/popup_pic.jpg" alt="">
+            </div>
+            <h2 class="popup__title title">together we care, save and protect!</h2>
+            <p class="popup__text text">Your most generous gift not only cares for countless animals, but it also offers hope and a vital lifeline to the world’s most endangered wildlife relying on us to survive.</p>
+            <ul class="popup__btns">
+               <li class="popup__btn"><a href="">$20</a></li>
+               <li class="popup__btn"><a href="">$30</a></li>
+               <li class="popup__btn"><a href="">$50</a></li>
+               <li class="popup__btn"><a href="">$80</a></li>
+               <li class="popup__btn"><a href="">$100</a></li>
+               <li class="popup__btn"><a href="">Other amount</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!--Должен быть .wrapper; одинаковые id на ссылке и попапе; не забыть popup-link и lock-padding-->
+   <!--<div id="popup1" class="popup-step popup">
+      <div class="popup-step__body popup__body">
+         <div class="popup-step__content popup__content">
+            <a href="#header" class="popup-step__close popup__close"><img src="" alt=""></a>
+            <div class="popup-step__caption">
+               <h2 class="popup-step__title">make your donation</h2>
+            </div>
+            <div class="popup-step__line">
+               <h3 class="popup-step__subtitle">Donation Information:</h3>
+            </div>
+            <form action="#" class="popup-step__form">
+               <div class="popup-step__main">
+                  <p class="popup-step1__label label-text"><span>*</span>Choose your donation amount:</p>
+                  <div class="popup-step1__row1 row">
+                     <div class="popup-step1__btn popup__btn">
+                        <input type="radio" class="radio" id="10" name="amount">
+                        <label for="10" class="btn-text">$10</label>
+                     </div>
+                     <div class="popup-step1__btn popup__btn">
+                        <input type="radio" class="radio" id="20" name="amount">
+                        <label for="20" class="btn-text">$20</label>
+                     </div>
+                     <div class="popup-step1__btn popup__btn">
+                        <input type="radio" class="radio" id="30" name="amount">
+                        <label for="30" class="btn-text">$30</label>
+                     </div>
+                     <div class="popup-step1__btn popup__btn">
+                        <input type="radio" class="radio" id="50" name="amount">
+                        <label for="50" class="btn-text">$50</label>
+                     </div>
+                     <div class="popup-step1__btn popup__btn">
+                        <input type="radio" class="radio" id="80" name="amount">
+                        <label for="80" class="btn-text">$80</label>
+                     </div>
+                     <div class="popup-step1__btn popup__btn">
+                        <input type="radio" class="radio" id="100" name="amount">
+                        <label for="100" class="btn-text">$100</label>
+                     </div>
+                  </div>
+                  <div class="popup-step1__row2 row">
+                     <div class="popup-step1__btn popup__btn popup-step1__btn_other">
+                        <input type="radio" class="radio" id="other" name="amount" checked>
+                        <label for="other" class="btn-text">Other amount</label>
+                     </div>
+                     <div class="popup-step1__value">
+                        <input type="number" onkeypress="this.value=this.value.substring(0,3)";>
+                     </div>
+                  </div>
+                  <div class="popup-step1__row3 row">
+                     <div>
+                        <input type="checkbox" id="pet">
+                        <label for="pet" class="for-special-pet btn-text">for special pet</label>
+                     </div>
+                     <div class="select-box__wrapper">
+                        <div class="select-box select-box_pets">   
+                           <div class="options-container">
+                              <div class="option">
+                                 <input type="radio" class="radio" id="panda" name="category">
+                                 <label for="panda">Lukas the Panda</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="lemur" name="category">
+                                 <label for="lemur">Andy the Lemur</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="gorilla" name="category">
+                                 <label for="gorilla">Glen the Gorilla</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="alligator" name="category">
+                                 <label for="alligator">Mike the Alligator</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="eagle" name="category">
+                                 <label for="eagle">Sam & Lora the eagles family</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="koala" name="category">
+                                 <label for="koala">Liz the Koala</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="lion" name="category">
+                                 <label for="lion">Shake the Lion</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="tiger" name="category">
+                                 <label for="tiger">Senja the Tiger</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="ipsum1" name="category">
+                                 <label for="ipsum1">Lorem ipsum1</label>
+                              </div>
+                              <div class="option">
+                                 <input type="radio" class="radio" id="ipsum2" name="category">
+                                 <label for="ipsum2">Lorem ipsum2</label>
+                              </div>
+                           </div>
+                           <div class="selected">
+                              Choose your favourite
+                           </div>
+                           <div class="select-margin_top">
+                              
+                           </div>
+                           <div class="select-margin_bottom">
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="popup-step1__row4 row">
+                     <input type="checkbox" id="monthly" name="period">
+                     <label for="monthly" class="label-text">Make this a monthly recurring gift</label>
+                  </div>
+               </div>
+               <div class="popup-step1__row5 row">
+                  <div class="popup-step1__bullets popup-bullets">
+                     <span class="current-popup-bullet"></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <a href="" class="btn-next">
+                     <span class="btn-text next">next</span>
+                     <img src="../../assets/icons/arrow.svg" alt="arrow">
+                  </a>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>-->
+
+   <!--<div class="select-box">   
+      <div class="options-container">
+         <div class="option">
+            <input type="radio" class="radio" id="panda" name="category">
+            <label for="panda">Lukas the Panda</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="lemur" name="category">
+            <label for="lemur">Andy the Lemur</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="gorilla" name="category">
+            <label for="gorilla">Glen the Gorilla</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="alligator" name="category">
+            <label for="alligator">Mike the Alligator</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="eagle" name="category">
+            <label for="eagle">Sam & Lora the eagles family</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="koala" name="category">
+            <label for="koala">Liz the Koala</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="lion" name="category">
+            <label for="lion">Shake the Lion</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="tiger" name="category">
+            <label for="tiger">Senja the Tiger</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="ipsum1" name="category">
+            <label for="ipsum1">Lorem ipsum1</label>
+         </div>
+         <div class="option">
+            <input type="radio" class="radio" id="ipsum2" name="category">
+            <label for="ipsum2">Lorem ipsum2</label>
+         </div>
+      </div>
+      <div class="selected">
+         Choose your favourite
+      </div>
+      <div class="select-margin_top">
+         
+      </div>
+      <div class="select-margin_bottom">
+         
+      </div>
+   </div>-->
+
+   <script src="script.js" ></script> 
+</body>
+</html>
